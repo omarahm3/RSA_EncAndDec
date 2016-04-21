@@ -43,19 +43,6 @@ int main(){
 	cout << "TIME2: " << (double)(clock() - start) / CLOCKS_PER_SEC << endl;
 
 	cout << "------------------------------" << endl;
-	
-
-	//decrypted = (encrypted^d) % n;
-	//cout << "The decrypted msg: " << endl << decrypted << endl;
-
-//	/*int woo = clock();
-//
-//	decrypted = powerMod(encrypted, d, n);
-//	cout << "The decrypted msg yarb: " << endl << decrypted << endl;
-//
-//	cout << "TIME FINAL: " << (double)(clock() - woo) / CLOCKS_PER_SEC << endl;
-//
-//*/
 
 
 	return 0;
